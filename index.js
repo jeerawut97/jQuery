@@ -38,3 +38,8 @@ h1.before("<button>New.</button>");
 h1.after("<button>New.</button>");
 h1.prepend("<button>New.</button>");
 h1.append("<button>New.</button>");
+
+// slideToggle on click
+ button.on("click", function() {
+    h1.slideToggle(); //hide, toggle, fadeOut
+ });
