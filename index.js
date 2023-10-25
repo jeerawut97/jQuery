@@ -1,2 +1,8 @@
 var h1 = $("h1"); //selecting element
-h1.css("color", "red");
+
+// manapulating style
+h1.addClass("big-title margin-50");
+// h1.css("font-size", "5rem");
+// h1.css("color", "red");
+
+
