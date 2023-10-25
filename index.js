@@ -9,7 +9,11 @@ h1.addClass("big-title margin-50");
 
 // manapulating text
 h1.text("Bye");
-button.text("Don't Click Me.")
-button.html("<em>Hey</em>")
+button.text("Don't Click Me.");
+button.html("<em>Hey</em>");
 
 
+
+// manapulating attributes
+$("img").attr("src");
+$("a").attr("href", "https://www.yahoo.com");
